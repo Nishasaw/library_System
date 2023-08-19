@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.sticky-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-nav li {
+    margin: 0 20px;
+}
+
+.sticky-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sticky-nav a:hover {
+    color: #110603;
+}
+
+.books-section {
+    padding: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.nested-table {
+    border: none;
+    width: auto;
+    margin: 0;
+}
+
+.registration-section {
+    padding: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0f0404;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0b0403;
+    color: white;
+    padding: 10px 700px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0c0501;
+}
